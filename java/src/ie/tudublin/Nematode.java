@@ -91,7 +91,7 @@ public class Nematode {
 
         nt.fill(255,255,255);
         nt.textAlign(PApplet.CENTER, PApplet.CENTER);
-        nt.text(name, halfW, (halfH - (halfL * 40) - (100)));
+        nt.text(name, halfW, (halfH - (halfL * 40) - 100));
 
         nt.noFill();
         
@@ -110,6 +110,21 @@ public class Nematode {
         
                 
             }   
+            if(nem_leng == length-1)
+            {
+                switch(gender){
+
+                    case("m"):
+                    {
+                        nt.line(0,25 , 0, 50);
+                        nt.circle(0, 58, 15);
+                    }
+    
+                }
+            }
+
+            
+
             if(limbs == true)
             {
                 nt.line(25, 0, 50, 0);
