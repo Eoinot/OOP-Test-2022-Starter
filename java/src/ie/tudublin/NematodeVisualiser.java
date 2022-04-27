@@ -80,20 +80,7 @@ public class NematodeVisualiser extends PApplet
 
 		nematodes.get(i).render(this);
 
-		/* stroke(255,255,255);
 
-        float size = 3;
-		float halfH = height/2;
-		float halfW = width/2;
-		noFill();
-        for(int i = 0;i <= size;i++)
-        {
-            circle(halfH, halfW, 50);
-			halfW += 50;
-
-
-        }  
-        /* circle(height/2, width/2, 10); */
     }
 
 
