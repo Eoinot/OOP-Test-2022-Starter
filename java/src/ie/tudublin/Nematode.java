@@ -100,9 +100,16 @@ public class Nematode {
             nt.pushMatrix();
             nt.translate(halfH, (halfH - (halfL * 40)) + (50 * nem_leng));
             nt.circle(0, 0, 50);
-           /*  if(nem_leng == 1){
-                nt.line(, y1, x2, y2);
-            }  */
+
+            if(nem_leng == 0 && eyes == true){
+               
+                nt.line(18, -18, 40, -40);
+                nt.line(-18, -18, -40, -40);
+                nt.circle(-45, -45, 15);
+                nt.circle(45, -45, 15);
+        
+                
+            }   
             if(limbs == true)
             {
                 nt.line(25, 0, 50, 0);
