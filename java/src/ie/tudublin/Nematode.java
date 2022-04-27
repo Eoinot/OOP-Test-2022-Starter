@@ -118,7 +118,28 @@ public class Nematode {
                     {
                         nt.line(0,25 , 0, 50);
                         nt.circle(0, 58, 15);
+                        break;
                     }
+
+                    case("n"):
+                    {
+
+                    }
+
+                    case("f"):
+                    {
+                        nt.circle(0, 0, 25);
+                        break;
+                    }
+
+                    case("h"):
+                    {
+                        nt.circle(0, 0, 25);
+                        nt.line(0,25 , 0, 50);
+                        nt.circle(0, 58, 15);
+                    }
+                    
+
     
                 }
             }
